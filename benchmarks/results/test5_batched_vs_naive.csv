@@ -1,0 +1,2 @@
+dataset,n,batched_ms,naive_loop_ms,speedup,max_diff
+big scattered (n=600),600,16.957608982920647,557.9253149917349,32.901178199925816,2.168404344971009e-19

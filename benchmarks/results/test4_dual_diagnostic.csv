@@ -1,0 +1,2 @@
+dataset,n,refit_ms,refit_invert_cumulative_ms,total_ms,invert_share,refit_share,remaining_share,max_diff_vs_shipped
+big scattered (n=600),600,141.81357994675636,483.32145693711936,739.8298579500988,0.4616032636701147,0.19168404522046423,0.34671269110942105,0.0

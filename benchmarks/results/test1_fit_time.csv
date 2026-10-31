@@ -1,0 +1,22 @@
+dataset,kind,n,model,fit_time_ms
+small grid (n=64),grid,64,KRG,217.1292760176584
+small grid (n=64),grid,64,PolyharmonicSmoothingSpline,48.75526006799191
+small grid (n=64),grid,64,RMTBUQ,139.90174408536404
+small grid (n=64),grid,64,NdGridCubicSmoothingSplineUQ,8.316318038851023
+medium grid (n=256),grid,256,KRG,2313.9092149212956
+medium grid (n=256),grid,256,PolyharmonicSmoothingSpline,379.7324589686468
+medium grid (n=256),grid,256,RMTBUQ,174.28140598349273
+medium grid (n=256),grid,256,NdGridCubicSmoothingSplineUQ,8.31362302415073
+big grid (n=625),grid,625,KRG,24879.33848402463
+big grid (n=625),grid,625,PolyharmonicSmoothingSpline,297.82970098312944
+big grid (n=625),grid,625,RMTBUQ,600.3541940590367
+big grid (n=625),grid,625,NdGridCubicSmoothingSplineUQ,15.874798060394824
+small scattered (n=30),scattered,30,KRG,583.9953490067273
+small scattered (n=30),scattered,30,PolyharmonicSmoothingSpline,1.2214119778946042
+small scattered (n=30),scattered,30,RMTBUQ,37.770938011817634
+medium scattered (n=250),scattered,250,KRG,2081.6028129775077
+medium scattered (n=250),scattered,250,PolyharmonicSmoothingSpline,536.2025379436091
+medium scattered (n=250),scattered,250,RMTBUQ,128.9007719606161
+big scattered (n=600),scattered,600,KRG,19629.339377977885
+big scattered (n=600),scattered,600,PolyharmonicSmoothingSpline,308.4366680122912
+big scattered (n=600),scattered,600,RMTBUQ,402.6778469560668
