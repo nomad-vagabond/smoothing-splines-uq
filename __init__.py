@@ -1,10 +1,8 @@
 """smoothing_splines_uq: uncertainty quantification for N-D smoothing splines.
 
-A cleaned, consolidated rebuild of the exploratory `krig_splines` codebase
+A cleaned, consolidated rebuild of an earlier exploratory codebase
 ("Splines and Kriging as One Surrogate Model" / the Gaussian RMTS
-extension), keeping only confirmed results -- see
-`docs/Confirmed Results Inventory.md` for what was kept, what was dropped,
-and why.
+extension), keeping only confirmed results.
 
 Public API
 ----------

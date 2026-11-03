@@ -23,9 +23,9 @@ class SmoothingSpline1D:
     `.variance(xq)` solves Theorem 2a's bordered system with `iwp2_kernel`
     (the m=2 cubic-penalty reproducing kernel, Kimeldorf & Wahba 1970) and
     `nugget=lam` directly -- no kappa, no rescaling. See
-    `notebooks/spline_variance_without_kriging.ipynb` for the numerical
+    `notebooks/01_1d_identity_kriging_vs_splines.ipynb` for the numerical
     confirmation that this variance is the kappa->0 limit of Matern-3/2
-    Universal-Kriging's own variance (both via `krig_splines`'s own solver
+    Universal-Kriging's own variance (both via this project's own solver
     and independently via SMT's `KRG`).
 
     Only the m=2 (cubic) case is implemented, matching `iwp2_kernel`.

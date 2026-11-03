@@ -1,8 +1,7 @@
 """SMT's `RMTB` extended with Bayesian posterior variance.
 
-Merges what were two independently-developed implementations in the
-exploratory (`krig_splines`) codebase into one. The two differed in both
-architecture and performance:
+Merges what were two independently-developed exploratory implementations
+into one. The two differed in both architecture and performance:
 
 - `rmtb_uq.py` (subclass of `RMTB`, overriding `_train()`) -- a natural fit
   if this is ever proposed upstream to SMT itself (its other models already

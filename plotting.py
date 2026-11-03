@@ -4,8 +4,8 @@ dict with keys 'mean', 'std', 'var', 'ci_lower', 'ci_upper', 'pi_lower',
 'pi_upper' -- the interface shared by `csaps_uq.NdGridCubicSmoothingSplineUQ`
 and `rmtb_uq.RMTBUQ`.
 
-Merges what were two separate modules in the exploratory (`krig_splines`)
-codebase: `uq_plotting.py` (general-purpose, but hardcoded to a `[0,1]^2`,
+Merges what were two separate exploratory modules:
+`uq_plotting.py` (general-purpose, but hardcoded to a `[0,1]^2`,
 $x_1$/$x_2$ domain) and `rmts_plotting.py` (RANS-specific alpha/mach sweep
 plots, with no UQ/variance awareness at all). Rather than literally merging
 two files with different responsibilities, this module *generalizes*

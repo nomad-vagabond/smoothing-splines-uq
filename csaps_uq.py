@@ -1,7 +1,7 @@
 """N-D `csaps.NdGridCubicSmoothingSpline` with Bayesian posterior variance.
 
 Merges what were two independently-developed, independently-validated
-implementations in the exploratory (`krig_splines`) codebase --
+exploratory implementations --
 `csaps_grid_uq.py` and `grid_smooth_spline_uq.py` -- into a single class with
 two selectable off-grid evaluation strategies, rather than two classes users
 had to choose between by trial. Both strategies compute the *same* exact,
